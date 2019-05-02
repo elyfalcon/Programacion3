@@ -1,0 +1,96 @@
+<!-- Ejercicio 12:
+Tomando como base el ejercicio anterior se pide crear una tabla cuyo título
+(<CAPTION>) sea “Equipos del mundo”. Definir como primera columna de encabezados las
+confederaciones, como segunda columna los países y como tercera columna los nombres de
+los equipos.
+El listado de Confederaciones son: Concacaf, Conmebol y Uefa.
+Mientras que los países serán: México – Argentina, Brasil, Uruguay – España, Inglaterra.
+Los equipos según los países de origen son: America – River, Boca, Quilmes – Santos,
+Flamengo – Peñarol – Real Madrid Barcelona – Manchester Utd., Liverpool, Arsenal.
+-Agregar link que me lleve a la pagina en Conmebol , Uefa
+-Tratar de que la tabla quede centrada en nuestra pagina 
+-->
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Ejercicio 12</title>
+    </head>
+    <body>
+        <div align = "center">
+        <table border="1" >
+            <caption>Equipos del mundo</caption>
+            <tbody>
+                <thead>
+                 <td>Confederaciones</td>
+                 <td>Paises</td>
+                 <td>Equipos</td>			 
+                </thead>
+
+                <tr>
+                 <td><a href="http://www.conmebol.com/">Conmebol</a></td>
+                 <td>Mexico</td>
+                 <td>America</td>		
+                </tr>
+
+                <tr>
+                 <td rowspan="6">Conmebol</td>
+                 <td rowspan="3">Argentina</td>
+                 <td>River</td>	
+                </tr>
+
+                <tr>
+                    <td>Boca</td>
+                </tr>
+
+                <tr>
+                    <td>Quilmes</td>
+                </tr>
+                
+                <tr>
+                    <td rowspan="2"> Brasil</td>
+                    <td>Santos</td>
+                </tr>
+
+                <tr>
+                    <td>Flamengo</td>
+                </tr>
+                <tr>
+                    <td>Uruguay</td>
+                    <td>Peñarol</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="5"><a href="https://www.uefa.com/">Uefa</a></td>
+                    <td rowspan="2">España</td>
+                    <td>R.Madrid</td>
+                </tr>
+
+                <tr>
+                    <td>Barcelona</td>
+                </tr>
+
+                <tr> 
+                    <td rowspan="3">Inglaterra</td>
+                    <td>M.United</td>
+                </tr>
+
+                <tr>
+                    <td>Liverpool</td>
+                </tr>
+
+                <tr>
+                    <td>Arsenal</td>
+                </tr>
+                
+            </tbody>
+        
+        
+        </table>
+
+    </div>
+
+    </body>
+
+</html>
