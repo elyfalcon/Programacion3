@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="pagina2.html" method="get">
+        <fieldset>
+         <legend>Login</legend>
+         <label for="txtnombre">Nombre</label>
+        <input type="text" name="nombre" id="txtnombre" placeholder="Ingrese nombre aqui" required><br><br>
+        <label for="txtClave">password</label>
+        <input type="password" name="clave" id="txtClave" placeholder="Ingrese su clave aqui">
+        
+        </fieldset>
+        <fieldset>
+        <legend>Comentarios</legend>
+        <label for="chkcss">CSS</label>
+        <input type="checkbox" name="css" id="chkcss" checked><br>
+        <label for="js">JS</label>
+        <input type="checkbox" name="js" id="chkjs"><br>
+        <label for="chkhtml">html</label>
+        <input type="checkbox" name="html" id="chkhtml"><br>
+    </fieldset>
+    <fieldset>
+<legend>Sexo</legend>
+<label for="rdoMasculino">Masculino</label>
+<input type="radio" name="sexo" id="rdoMasculino" value="">
+<label for="rdoFemenino">Femenino</label>
+<input type="radio" name="sexo" id="rdoFemenino" value="">
+
+        </fieldset>
+        <input type="submit" value="Loguearse">
+        <input type="reset">
+
+    </form>
+
+    <div id="info"> 
+
+    </div>
+</body>
+</html>
