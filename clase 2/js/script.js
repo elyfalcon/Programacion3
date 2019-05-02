@@ -2,6 +2,7 @@ var formulario;
 
 window.addEventListener('load',inicializarEventos);
 function inicializarEventos(){
+
    // formulario=document.getElementsByTagName('form')[0]
    // formulario=document.forms[0];
     //quiero atajar el metodo submit
@@ -22,6 +23,8 @@ function inicializarEventos(){
     else {
         informacion += "<br> No sabe javascript";
     }
+   // if(r)
+    console.log(document.getElementById('rdoMasculino').value);
     document.getElementById('info').innerHTML=informacion;
     });
 }

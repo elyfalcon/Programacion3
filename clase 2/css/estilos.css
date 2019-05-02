@@ -1,0 +1,31 @@
+h1{
+
+    background-color: antiquewhite;
+    
+}
+
+h2, p{
+
+    background-color:rgb(231, 243, 243);
+    color:red;
+
+}
+.azul{
+
+    color: blue;
+}
+#enlace{
+
+    color:red;
+}
+p span{
+    color:orange;
+}
+p a span{
+    color:blueviolet
+    
+}
+p > span{
+
+    color:green;
+}
